@@ -88,7 +88,7 @@ function html(...args) {
 console.log(html`<b>${inputName} says</b>: "${inputMessage}"`)
 */
 
-// EJERCICIO PLUS DE
+// EJERCICIO PLUS DE https://leetcode.com/problems/two-sum/
 /*
 const twoSum = (nums, target) => {
   for (let i = 0; i < nums.length; i++) {
