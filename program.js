@@ -92,8 +92,12 @@ console.log(html`<b>${inputName} says</b>: "${inputMessage}"`)
 /*
 const twoSum = (nums, target) => {
   for (let i = 0; i < nums.length; i++) {
-    if (nums[i] + nums[i + 1] == target) {
-      return [i, i + 1]
+    let aux = i + 1
+    while (aux < nums.length) {
+      if (nums[i] + nums[aux] == target) {
+        return [i, aux]
+      }
+      ++aux
     }
   }
   return []
